@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "RocketHelp",
+    "slug": "RocketHelp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#202024"
+    },
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
+    "android": {
+      "package": "com.rocketHelp",
+      "googleServicesFile": "***********"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rocketHelp",
+      "googleServicesFile": "*********"
+    }
+  }
+}
